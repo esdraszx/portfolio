@@ -3,36 +3,93 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Reenie+Beanie" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        
+
+        <meta name="viewport" content="width=device-width"/>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link href="css/portfolio.css" type="text/css" rel="stylesheet">
         <title>Home</title>
     </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <body id="background-img">
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="projects.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="experience.html">Reviews</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">About</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <br/>
         <header>
-            <h1>My Projects</h1>
+            <h1>My Gallery</h1>
         </header>
-        <section>
-            <aside>
-                <p>School Projects</p>
-            </aside>
-            <article>
-                <p>
-                    <ul>
-                        <li>C++ Programming: Basic computer applications</li>
-                        <li>HTML CSS AND JS: My first website in IT 101</li>
-                        <li>PHP: Managing session variables</li>
-                    </ul>
-                </p>
-            </article>
-        </section>
+        <br/>
+        <div id="myContent">
+            <div class="masonry">
+                <div class="item">
+                    <img src="images/gallery/1.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/3.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/7.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/5.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/4.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/6.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/2.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/9.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/8.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/10.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/11.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/gallery/12.jpeg">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <br/>
+            <p>Thank you for visiting my website!</p>
+            <p>Github Classroom: <a href="">Click Here</a></p>
+        </footer>
+        
         
     </body>
 </html>
